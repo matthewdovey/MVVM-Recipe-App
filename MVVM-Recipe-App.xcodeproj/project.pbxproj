@@ -99,13 +99,8 @@
 		9CA6C3652565BB9000307B2D /* MVVM-Recipe-App */ = {
 			isa = PBXGroup;
 			children = (
-				9CA6C3662565BB9000307B2D /* AppDelegate.swift */,
-				9CA6C3682565BB9000307B2D /* SceneDelegate.swift */,
-				9CA6C36A2565BB9000307B2D /* ViewController.swift */,
-				9CA6C36C2565BB9000307B2D /* Main.storyboard */,
-				9CA6C36F2565BB9200307B2D /* Assets.xcassets */,
-				9CA6C3712565BB9200307B2D /* LaunchScreen.storyboard */,
-				9CA6C3742565BB9200307B2D /* Info.plist */,
+				9CA6C39A2565BC7100307B2D /* Resources */,
+				9CA6C3992565BC6800307B2D /* Application */,
 			);
 			path = "MVVM-Recipe-App";
 			sourceTree = "<group>";
@@ -126,6 +121,27 @@
 				9CA6C38A2565BB9200307B2D /* Info.plist */,
 			);
 			path = "MVVM-Recipe-AppUITests";
+			sourceTree = "<group>";
+		};
+		9CA6C3992565BC6800307B2D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9CA6C3712565BB9200307B2D /* LaunchScreen.storyboard */,
+				9CA6C36C2565BB9000307B2D /* Main.storyboard */,
+				9CA6C36A2565BB9000307B2D /* ViewController.swift */,
+				9CA6C3682565BB9000307B2D /* SceneDelegate.swift */,
+				9CA6C3662565BB9000307B2D /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		9CA6C39A2565BC7100307B2D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9CA6C36F2565BB9200307B2D /* Assets.xcassets */,
+				9CA6C3742565BB9200307B2D /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -438,7 +454,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 34DLF95UH4;
-				INFOPLIST_FILE = "MVVM-Recipe-App/Info.plist";
+				INFOPLIST_FILE = "MVVM-Recipe-App/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,7 +473,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 34DLF95UH4;
-				INFOPLIST_FILE = "MVVM-Recipe-App/Info.plist";
+				INFOPLIST_FILE = "MVVM-Recipe-App/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
