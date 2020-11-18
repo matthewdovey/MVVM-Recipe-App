@@ -19,6 +19,7 @@
 		9CA6C3A22565BF6400307B2D /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA6C3A12565BF6400307B2D /* Recipe.swift */; };
 		9CA6C3A72565BFF200307B2D /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA6C3A62565BFF200307B2D /* Ingredient.swift */; };
 		9CA6C3AC2565C11300307B2D /* IngredientType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA6C3AB2565C11300307B2D /* IngredientType.swift */; };
+		9CA6C3B22565C2BB00307B2D /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA6C3B12565C2BB00307B2D /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		9CA6C3A12565BF6400307B2D /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		9CA6C3A62565BFF200307B2D /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 		9CA6C3AB2565C11300307B2D /* IngredientType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientType.swift; sourceTree = "<group>"; };
+		9CA6C3B12565C2BB00307B2D /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 		9CA6C3992565BC6800307B2D /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				9CA6C3B02565C2AB00307B2D /* Coordinator */,
 				9CA6C39B2565BEC000307B2D /* Models */,
 				9CA6C3712565BB9200307B2D /* LaunchScreen.storyboard */,
 				9CA6C36C2565BB9000307B2D /* Main.storyboard */,
@@ -162,6 +165,14 @@
 				9CA6C3AB2565C11300307B2D /* IngredientType.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		9CA6C3B02565C2AB00307B2D /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				9CA6C3B12565C2BB00307B2D /* Coordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,6 +312,7 @@
 				9CA6C3A72565BFF200307B2D /* Ingredient.swift in Sources */,
 				9CA6C3692565BB9000307B2D /* SceneDelegate.swift in Sources */,
 				9CA6C3A22565BF6400307B2D /* Recipe.swift in Sources */,
+				9CA6C3B22565C2BB00307B2D /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
