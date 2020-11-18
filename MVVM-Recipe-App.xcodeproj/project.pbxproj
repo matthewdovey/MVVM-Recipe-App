@@ -20,6 +20,7 @@
 		9CA6C3A72565BFF200307B2D /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA6C3A62565BFF200307B2D /* Ingredient.swift */; };
 		9CA6C3AC2565C11300307B2D /* IngredientType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA6C3AB2565C11300307B2D /* IngredientType.swift */; };
 		9CA6C3B22565C2BB00307B2D /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA6C3B12565C2BB00307B2D /* Coordinator.swift */; };
+		9CA6C3B72565C63600307B2D /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA6C3B62565C63600307B2D /* AppCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		9CA6C3A62565BFF200307B2D /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 		9CA6C3AB2565C11300307B2D /* IngredientType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientType.swift; sourceTree = "<group>"; };
 		9CA6C3B12565C2BB00307B2D /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		9CA6C3B62565C63600307B2D /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				9CA6C3B12565C2BB00307B2D /* Coordinator.swift */,
+				9CA6C3B62565C63600307B2D /* AppCoordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				9CA6C3672565BB9000307B2D /* AppDelegate.swift in Sources */,
 				9CA6C3AC2565C11300307B2D /* IngredientType.swift in Sources */,
 				9CA6C3A72565BFF200307B2D /* Ingredient.swift in Sources */,
+				9CA6C3B72565C63600307B2D /* AppCoordinator.swift in Sources */,
 				9CA6C3692565BB9000307B2D /* SceneDelegate.swift in Sources */,
 				9CA6C3A22565BF6400307B2D /* Recipe.swift in Sources */,
 				9CA6C3B22565C2BB00307B2D /* Coordinator.swift in Sources */,
