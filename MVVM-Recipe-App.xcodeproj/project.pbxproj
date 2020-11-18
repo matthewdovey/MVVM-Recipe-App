@@ -15,6 +15,7 @@
 		9CA6C3732565BB9200307B2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA6C3712565BB9200307B2D /* LaunchScreen.storyboard */; };
 		9CA6C37E2565BB9200307B2D /* MVVM_Recipe_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA6C37D2565BB9200307B2D /* MVVM_Recipe_AppTests.swift */; };
 		9CA6C3892565BB9200307B2D /* MVVM_Recipe_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA6C3882565BB9200307B2D /* MVVM_Recipe_AppUITests.swift */; };
+		9CA6C39D2565BECF00307B2D /* recipes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9CA6C39C2565BECF00307B2D /* recipes.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9CA6C3842565BB9200307B2D /* MVVM-Recipe-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-Recipe-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA6C3882565BB9200307B2D /* MVVM_Recipe_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_Recipe_AppUITests.swift; sourceTree = "<group>"; };
 		9CA6C38A2565BB9200307B2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CA6C39C2565BECF00307B2D /* recipes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = recipes.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		9CA6C3992565BC6800307B2D /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				9CA6C39B2565BEC000307B2D /* Models */,
 				9CA6C3712565BB9200307B2D /* LaunchScreen.storyboard */,
 				9CA6C36C2565BB9000307B2D /* Main.storyboard */,
 				9CA6C36A2565BB9000307B2D /* ViewController.swift */,
@@ -139,9 +142,17 @@
 			isa = PBXGroup;
 			children = (
 				9CA6C36F2565BB9200307B2D /* Assets.xcassets */,
+				9CA6C39C2565BECF00307B2D /* recipes.txt */,
 				9CA6C3742565BB9200307B2D /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		9CA6C39B2565BEC000307B2D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CA6C39D2565BECF00307B2D /* recipes.txt in Resources */,
 				9CA6C3732565BB9200307B2D /* LaunchScreen.storyboard in Resources */,
 				9CA6C3702565BB9200307B2D /* Assets.xcassets in Resources */,
 				9CA6C36E2565BB9000307B2D /* Main.storyboard in Resources */,
