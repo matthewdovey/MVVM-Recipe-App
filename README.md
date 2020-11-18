@@ -1,9 +1,9 @@
-#MVVM Recipe App
+# MVVM Recipe App
 
-##Summary
+## Summary
 This app has been created to demonstrate my abilities as an iOS developer using the most common architecture, design patterns and best practises.
 
-##Architecture
+## Architecture
 MVVM+C _(Model-View-ViewModel + Coordinator)_
 
-##Design Patterns
+## Design Patterns
