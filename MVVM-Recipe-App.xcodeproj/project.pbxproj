@@ -16,6 +16,9 @@
 		9CA6C37E2565BB9200307B2D /* MVVM_Recipe_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA6C37D2565BB9200307B2D /* MVVM_Recipe_AppTests.swift */; };
 		9CA6C3892565BB9200307B2D /* MVVM_Recipe_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA6C3882565BB9200307B2D /* MVVM_Recipe_AppUITests.swift */; };
 		9CA6C39D2565BECF00307B2D /* recipes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9CA6C39C2565BECF00307B2D /* recipes.txt */; };
+		9CA6C3A22565BF6400307B2D /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA6C3A12565BF6400307B2D /* Recipe.swift */; };
+		9CA6C3A72565BFF200307B2D /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA6C3A62565BFF200307B2D /* Ingredient.swift */; };
+		9CA6C3AC2565C11300307B2D /* IngredientType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA6C3AB2565C11300307B2D /* IngredientType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		9CA6C3882565BB9200307B2D /* MVVM_Recipe_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_Recipe_AppUITests.swift; sourceTree = "<group>"; };
 		9CA6C38A2565BB9200307B2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CA6C39C2565BECF00307B2D /* recipes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = recipes.txt; sourceTree = "<group>"; };
+		9CA6C3A12565BF6400307B2D /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		9CA6C3A62565BFF200307B2D /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		9CA6C3AB2565C11300307B2D /* IngredientType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +157,9 @@
 		9CA6C39B2565BEC000307B2D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9CA6C3A12565BF6400307B2D /* Recipe.swift */,
+				9CA6C3A62565BFF200307B2D /* Ingredient.swift */,
+				9CA6C3AB2565C11300307B2D /* IngredientType.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -288,7 +297,10 @@
 			files = (
 				9CA6C36B2565BB9000307B2D /* ViewController.swift in Sources */,
 				9CA6C3672565BB9000307B2D /* AppDelegate.swift in Sources */,
+				9CA6C3AC2565C11300307B2D /* IngredientType.swift in Sources */,
+				9CA6C3A72565BFF200307B2D /* Ingredient.swift in Sources */,
 				9CA6C3692565BB9000307B2D /* SceneDelegate.swift in Sources */,
+				9CA6C3A22565BF6400307B2D /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
