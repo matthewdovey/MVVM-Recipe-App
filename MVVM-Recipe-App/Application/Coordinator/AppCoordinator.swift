@@ -12,6 +12,11 @@ struct AppCoordionator: Coordinator {
     var navigationController: UINavigationController
     
     func start() {
-        // Present Initial View Controller
+        presentMain()
+    }
+    
+    func presentMain() {
+        let viewController = ViewController()
+        navigationController.pushViewController(viewController, animated: true)
     }
 }
