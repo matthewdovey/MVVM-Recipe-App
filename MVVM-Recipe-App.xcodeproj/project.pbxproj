@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C772B29256EFB68003F920E /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C772B28256EFB68003F920E /* RecipeViewController.swift */; };
 		9CA6C3672565BB9000307B2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA6C3662565BB9000307B2D /* AppDelegate.swift */; };
 		9CA6C3692565BB9000307B2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA6C3682565BB9000307B2D /* SceneDelegate.swift */; };
 		9CA6C36B2565BB9000307B2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA6C36A2565BB9000307B2D /* ViewController.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C772B28256EFB68003F920E /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
 		9CA6C3632565BB9000307B2D /* MVVM-Recipe-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-Recipe-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA6C3662565BB9000307B2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CA6C3682565BB9000307B2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C772AE4256D9D1B003F920E /* Recipe */ = {
+			isa = PBXGroup;
+			children = (
+				9C772B28256EFB68003F920E /* RecipeViewController.swift */,
+			);
+			path = Recipe;
+			sourceTree = "<group>";
+		};
 		9CA6C35A2565BB9000307B2D = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +188,7 @@
 		9CF214762565D39A00112209 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				9C772AE4256D9D1B003F920E /* Recipe */,
 				9CF2147F2565D3C500112209 /* Main */,
 			);
 			path = Modules;
@@ -329,6 +340,7 @@
 				9CA6C3692565BB9000307B2D /* SceneDelegate.swift in Sources */,
 				9CA6C3A22565BF6400307B2D /* Recipe.swift in Sources */,
 				9CA6C3B22565C2BB00307B2D /* Coordinator.swift in Sources */,
+				9C772B29256EFB68003F920E /* RecipeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
