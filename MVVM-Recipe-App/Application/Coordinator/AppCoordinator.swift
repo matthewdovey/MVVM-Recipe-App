@@ -16,7 +16,7 @@ struct AppCoordionator: Coordinator {
     }
     
     func presentMain() {
-        let viewController = ViewController()
+        let viewController = MainViewController()
         navigationController.pushViewController(viewController, animated: true)
     }
 }

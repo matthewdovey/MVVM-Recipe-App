@@ -8,9 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		9C772B29256EFB68003F920E /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C772B28256EFB68003F920E /* RecipeViewController.swift */; };
+		9C772B3425701CF7003F920E /* UserDefaultsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C772B3325701CF7003F920E /* UserDefaultsService.swift */; };
+		9C772B3925701D02003F920E /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C772B3825701D02003F920E /* ServiceManager.swift */; };
+		9C772B3E25701D22003F920E /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C772B3D25701D22003F920E /* Services.swift */; };
+		9C772B44257024B9003F920E /* UserDefaultsServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C772B43257024B9003F920E /* UserDefaultsServiceProtocol.swift */; };
+		9C772B4A257035BC003F920E /* NetworkServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C772B49257035BC003F920E /* NetworkServiceProtocol.swift */; };
+		9C772B4F257035C7003F920E /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C772B4E257035C7003F920E /* NetworkService.swift */; };
+		9C772B54257039F9003F920E /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C772B53257039F9003F920E /* MainViewModel.swift */; };
+		9C772B5D25704C9C003F920E /* FileReaderServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C772B5C25704C9C003F920E /* FileReaderServiceProtocol.swift */; };
+		9C772B6225704CAA003F920E /* FileReaderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C772B6125704CAA003F920E /* FileReaderService.swift */; };
 		9CA6C3672565BB9000307B2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA6C3662565BB9000307B2D /* AppDelegate.swift */; };
 		9CA6C3692565BB9000307B2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA6C3682565BB9000307B2D /* SceneDelegate.swift */; };
-		9CA6C36B2565BB9000307B2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA6C36A2565BB9000307B2D /* ViewController.swift */; };
+		9CA6C36B2565BB9000307B2D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA6C36A2565BB9000307B2D /* MainViewController.swift */; };
 		9CA6C3702565BB9200307B2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA6C36F2565BB9200307B2D /* Assets.xcassets */; };
 		9CA6C3732565BB9200307B2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA6C3712565BB9200307B2D /* LaunchScreen.storyboard */; };
 		9CA6C37E2565BB9200307B2D /* MVVM_Recipe_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA6C37D2565BB9200307B2D /* MVVM_Recipe_AppTests.swift */; };
@@ -42,10 +51,19 @@
 
 /* Begin PBXFileReference section */
 		9C772B28256EFB68003F920E /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
+		9C772B3325701CF7003F920E /* UserDefaultsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsService.swift; sourceTree = "<group>"; };
+		9C772B3825701D02003F920E /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		9C772B3D25701D22003F920E /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		9C772B43257024B9003F920E /* UserDefaultsServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsServiceProtocol.swift; sourceTree = "<group>"; };
+		9C772B49257035BC003F920E /* NetworkServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceProtocol.swift; sourceTree = "<group>"; };
+		9C772B4E257035C7003F920E /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		9C772B53257039F9003F920E /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		9C772B5C25704C9C003F920E /* FileReaderServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReaderServiceProtocol.swift; sourceTree = "<group>"; };
+		9C772B6125704CAA003F920E /* FileReaderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReaderService.swift; sourceTree = "<group>"; };
 		9CA6C3632565BB9000307B2D /* MVVM-Recipe-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-Recipe-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA6C3662565BB9000307B2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CA6C3682565BB9000307B2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9CA6C36A2565BB9000307B2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9CA6C36A2565BB9000307B2D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9CA6C36F2565BB9200307B2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CA6C3722565BB9200307B2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CA6C3742565BB9200307B2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -94,6 +112,45 @@
 				9C772B28256EFB68003F920E /* RecipeViewController.swift */,
 			);
 			path = Recipe;
+			sourceTree = "<group>";
+		};
+		9C772B3225701C4F003F920E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9C772B5B25704C6D003F920E /* File */,
+				9C772B4825702F4F003F920E /* Network */,
+				9C772B42257024A6003F920E /* UserDefaults */,
+				9C772B3825701D02003F920E /* ServiceManager.swift */,
+				9C772B3D25701D22003F920E /* Services.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9C772B42257024A6003F920E /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				9C772B3325701CF7003F920E /* UserDefaultsService.swift */,
+				9C772B43257024B9003F920E /* UserDefaultsServiceProtocol.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		9C772B4825702F4F003F920E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9C772B49257035BC003F920E /* NetworkServiceProtocol.swift */,
+				9C772B4E257035C7003F920E /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9C772B5B25704C6D003F920E /* File */ = {
+			isa = PBXGroup;
+			children = (
+				9C772B5C25704C9C003F920E /* FileReaderServiceProtocol.swift */,
+				9C772B6125704CAA003F920E /* FileReaderService.swift */,
+			);
+			path = File;
 			sourceTree = "<group>";
 		};
 		9CA6C35A2565BB9000307B2D = {
@@ -146,6 +203,7 @@
 		9CA6C3992565BC6800307B2D /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				9C772B3225701C4F003F920E /* Services */,
 				9CF214762565D39A00112209 /* Modules */,
 				9CA6C3B02565C2AB00307B2D /* Coordinator */,
 				9CA6C39B2565BEC000307B2D /* Models */,
@@ -197,7 +255,8 @@
 		9CF2147F2565D3C500112209 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				9CA6C36A2565BB9000307B2D /* ViewController.swift */,
+				9CA6C36A2565BB9000307B2D /* MainViewController.swift */,
+				9C772B53257039F9003F920E /* MainViewModel.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -332,15 +391,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CA6C36B2565BB9000307B2D /* ViewController.swift in Sources */,
+				9C772B3E25701D22003F920E /* Services.swift in Sources */,
+				9CA6C36B2565BB9000307B2D /* MainViewController.swift in Sources */,
+				9C772B3425701CF7003F920E /* UserDefaultsService.swift in Sources */,
 				9CA6C3672565BB9000307B2D /* AppDelegate.swift in Sources */,
+				9C772B44257024B9003F920E /* UserDefaultsServiceProtocol.swift in Sources */,
 				9CA6C3AC2565C11300307B2D /* IngredientType.swift in Sources */,
 				9CA6C3A72565BFF200307B2D /* Ingredient.swift in Sources */,
 				9CA6C3B72565C63600307B2D /* AppCoordinator.swift in Sources */,
+				9C772B54257039F9003F920E /* MainViewModel.swift in Sources */,
 				9CA6C3692565BB9000307B2D /* SceneDelegate.swift in Sources */,
+				9C772B5D25704C9C003F920E /* FileReaderServiceProtocol.swift in Sources */,
 				9CA6C3A22565BF6400307B2D /* Recipe.swift in Sources */,
+				9C772B4F257035C7003F920E /* NetworkService.swift in Sources */,
+				9C772B6225704CAA003F920E /* FileReaderService.swift in Sources */,
 				9CA6C3B22565C2BB00307B2D /* Coordinator.swift in Sources */,
 				9C772B29256EFB68003F920E /* RecipeViewController.swift in Sources */,
+				9C772B3925701D02003F920E /* ServiceManager.swift in Sources */,
+				9C772B4A257035BC003F920E /* NetworkServiceProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
