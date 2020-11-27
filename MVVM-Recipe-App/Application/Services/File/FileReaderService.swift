@@ -8,8 +8,14 @@
 import Foundation
 
 struct FileReaderService: FileReaderServiceProtocol {
+    private var bundle: Bundle
+    
+    init(bundle: Bundle = .main) {
+        self.bundle = bundle
+    }
+    
     func decode(fileNamed name: String = "recipes", withExtension ext: String = "json") -> [Recipe] {
-        guard let url = Bundle.main.url(forResource: name, withExtension: ext) else {
+        guard let url = bundle.url(forResource: name, withExtension: ext) else {
             return []
         }
         
