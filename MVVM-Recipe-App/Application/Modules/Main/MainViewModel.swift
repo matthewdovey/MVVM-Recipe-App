@@ -9,6 +9,7 @@ import Foundation
 
 struct MainViewModel {
     var userDefaultsService: UserDefaultsServiceProtocol
+    var titleLabelText = "Recipes"
     
     init(userDefaultsService: UserDefaultsServiceProtocol) {
         self.userDefaultsService = userDefaultsService
