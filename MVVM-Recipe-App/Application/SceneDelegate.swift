@@ -24,7 +24,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             navigationController: navigationController,
             serviceManager: serviceManager
         )
-        
         coordinator?.start()
         
         appWindow.rootViewController = navigationController

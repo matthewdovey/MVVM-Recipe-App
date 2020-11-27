@@ -18,6 +18,8 @@ struct AppCoordionator: Coordinator {
     
     func presentMain() {
         let viewController = MainViewController()
+        let viewModel = MainViewModel(userDefaultsService: serviceManager.userDefaultsService)
+        viewController.configure(with: viewModel)
         navigationController.pushViewController(viewController, animated: true)
     }
 }
