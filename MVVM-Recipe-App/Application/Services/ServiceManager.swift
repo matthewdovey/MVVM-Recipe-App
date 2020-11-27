@@ -10,9 +10,11 @@ import Foundation
 class ServiceManager: Services {
     var userDefaultsService: UserDefaultsServiceProtocol
     var networkService: NetworkServiceProtocol
+    var fileReaderService: FileReaderServiceProtocol
     
     init() {
         userDefaultsService = UserDefaultsService(.standard)
         networkService = NetworkService()
+        fileReaderService = FileReaderService()
     }
 }

@@ -10,4 +10,5 @@ import Foundation
 protocol Services {
     var userDefaultsService: UserDefaultsServiceProtocol { get }
     var networkService: NetworkServiceProtocol { get }
+    var fileReaderService: FileReaderServiceProtocol { get }
 }
