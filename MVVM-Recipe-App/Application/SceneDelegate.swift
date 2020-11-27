@@ -17,10 +17,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let appWindow = UIWindow(windowScene: windowScene)
         let navigationController = UINavigationController()
+        let serviceManager = ServiceManager()
         
         coordinator = AppCoordionator(
             children: [],
-            navigationController: navigationController
+            navigationController: navigationController,
+            serviceManager: serviceManager
         )
         
         coordinator?.start()

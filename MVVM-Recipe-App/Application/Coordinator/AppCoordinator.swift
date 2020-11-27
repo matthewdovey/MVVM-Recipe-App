@@ -10,6 +10,7 @@ import UIKit
 struct AppCoordionator: Coordinator {
     var children: [Coordinator]
     var navigationController: UINavigationController
+    var serviceManager: Services
     
     func start() {
         presentMain()
