@@ -1,5 +1,5 @@
 //
-//  FilterView.swift
+//  FilterBarView.swift
 //  MVVM-Recipe-App
 //
 //  Created by Matthew Dovey on 27/11/2020.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class FilterView: UIView {
+class FilterBarView: UIView {
     private var filterStackView: UIStackView!
     	
     override init(frame: CGRect) {

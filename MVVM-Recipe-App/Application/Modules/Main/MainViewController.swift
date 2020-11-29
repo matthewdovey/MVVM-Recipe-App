@@ -9,7 +9,7 @@ import UIKit
 
 class MainViewController: UIViewController {
     private var titleLabel: UILabel!
-    private var filterView: FilterView!
+    private var filterBarView: FilterBarView!
     private var recipeTableView: UITableView!
     
     private var viewModel: MainViewModel?
@@ -52,13 +52,13 @@ extension MainViewController {
     }
     
     private func setupFilterView() {
-        let filterView = FilterView()
-        self.filterView = filterView
-        view.addSubview(filterView)
-        filterView.translatesAutoresizingMaskIntoConstraints = false
-        filterView.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 24).isActive = true
-        filterView.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
-        filterView.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
+        let filterBarView = FilterBarView()
+        self.filterBarView = filterBarView
+        view.addSubview(filterBarView)
+        filterBarView.translatesAutoresizingMaskIntoConstraints = false
+        filterBarView.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 24).isActive = true
+        filterBarView.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
+        filterBarView.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
     }
     
     private func setupRecipeTableView() {
@@ -66,7 +66,7 @@ extension MainViewController {
         self.recipeTableView = tableView
         view.addSubview(tableView)
         tableView.translatesAutoresizingMaskIntoConstraints = false
-        tableView.topAnchor.constraint(equalTo: filterView.bottomAnchor).isActive = true
+        tableView.topAnchor.constraint(equalTo: filterBarView.bottomAnchor).isActive = true
         tableView.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
         tableView.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
         
