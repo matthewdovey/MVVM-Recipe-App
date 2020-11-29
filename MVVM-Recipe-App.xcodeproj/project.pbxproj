@@ -177,6 +177,30 @@
 			path = FilterViews;
 			sourceTree = "<group>";
 		};
+		9C844AD1257414590044EA83 /* ApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CA6C37D2565BB9200307B2D /* MVVM_Recipe_AppTests.swift */,
+				9C844AD2257414600044EA83 /* ServiceTests */,
+			);
+			path = ApplicationTests;
+			sourceTree = "<group>";
+		};
+		9C844AD2257414600044EA83 /* ServiceTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ServiceTests;
+			sourceTree = "<group>";
+		};
+		9C844AD3257414650044EA83 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9CA6C37F2565BB9200307B2D /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		9CA6C35A2565BB9000307B2D = {
 			isa = PBXGroup;
 			children = (
@@ -209,8 +233,8 @@
 		9CA6C37C2565BB9200307B2D /* MVVM-Recipe-AppTests */ = {
 			isa = PBXGroup;
 			children = (
-				9CA6C37D2565BB9200307B2D /* MVVM_Recipe_AppTests.swift */,
-				9CA6C37F2565BB9200307B2D /* Info.plist */,
+				9C844AD3257414650044EA83 /* Resources */,
+				9C844AD1257414590044EA83 /* ApplicationTests */,
 			);
 			path = "MVVM-Recipe-AppTests";
 			sourceTree = "<group>";
@@ -646,7 +670,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 34DLF95UH4;
-				INFOPLIST_FILE = "MVVM-Recipe-AppTests/Info.plist";
+				INFOPLIST_FILE = "MVVM-Recipe-AppTests/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -668,7 +692,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 34DLF95UH4;
-				INFOPLIST_FILE = "MVVM-Recipe-AppTests/Info.plist";
+				INFOPLIST_FILE = "MVVM-Recipe-AppTests/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
