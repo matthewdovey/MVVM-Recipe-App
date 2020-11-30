@@ -8,10 +8,30 @@
 import Foundation
 
 protocol Endpoint {
-    var scheme: String { get }
+    var scheme: UrlScheme { get }
     var baseUrl: String { get }
     var path: String { get }
     var params: [URLQueryItem] { get }
-    var method: String { get }
+    var method: UrlMethod { get }
     var body: String { get }
+}
+
+extension Endpoint {
+    var scheme: UrlScheme {
+        .https
+    }
+    
+    var baseUrl: String {
+        ""
+    }
+}
+
+enum UrlScheme: String {
+    case https
+    case http
+}
+
+enum UrlMethod: String {
+    case post = "POST"
+    case get = "GET"
 }
