@@ -20,6 +20,7 @@
 		9C772B5D25704C9C003F920E /* FileReaderServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C772B5C25704C9C003F920E /* FileReaderServiceProtocol.swift */; };
 		9C772B6225704CAA003F920E /* FileReaderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C772B6125704CAA003F920E /* FileReaderService.swift */; };
 		9C844ACD25740DC40044EA83 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C844ACC25740DC40044EA83 /* FilterView.swift */; };
+		9C844AD92575B8980044EA83 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C844AD82575B8980044EA83 /* Endpoint.swift */; };
 		9CA6C3672565BB9000307B2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA6C3662565BB9000307B2D /* AppDelegate.swift */; };
 		9CA6C3692565BB9000307B2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA6C3682565BB9000307B2D /* SceneDelegate.swift */; };
 		9CA6C36B2565BB9000307B2D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA6C36A2565BB9000307B2D /* MainViewController.swift */; };
@@ -66,6 +67,7 @@
 		9C772B5C25704C9C003F920E /* FileReaderServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReaderServiceProtocol.swift; sourceTree = "<group>"; };
 		9C772B6125704CAA003F920E /* FileReaderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReaderService.swift; sourceTree = "<group>"; };
 		9C844ACC25740DC40044EA83 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		9C844AD82575B8980044EA83 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		9CA6C3632565BB9000307B2D /* MVVM-Recipe-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-Recipe-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA6C3662565BB9000307B2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CA6C3682565BB9000307B2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -201,6 +203,14 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		9C844AD72575B86E0044EA83 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9C844AD82575B8980044EA83 /* Endpoint.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		9CA6C35A2565BB9000307B2D = {
 			isa = PBXGroup;
 			children = (
@@ -275,6 +285,7 @@
 		9CA6C39B2565BEC000307B2D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9C844AD72575B86E0044EA83 /* Network */,
 				9CA6C3A12565BF6400307B2D /* Recipe.swift */,
 				9CA6C3A62565BFF200307B2D /* Ingredient.swift */,
 				9CA6C3AB2565C11300307B2D /* IngredientType.swift */,
@@ -460,6 +471,7 @@
 				9CA6C3B22565C2BB00307B2D /* Coordinator.swift in Sources */,
 				9C772B29256EFB68003F920E /* RecipeViewController.swift in Sources */,
 				9C772B3925701D02003F920E /* ServiceManager.swift in Sources */,
+				9C844AD92575B8980044EA83 /* Endpoint.swift in Sources */,
 				9C772B4A257035BC003F920E /* NetworkServiceProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
