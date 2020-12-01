@@ -13,7 +13,7 @@ protocol Endpoint {
     var path: String { get }
     var params: [URLQueryItem] { get }
     var method: UrlMethod { get }
-    var body: String { get }
+    var body: Data { get }
 }
 
 extension Endpoint {
